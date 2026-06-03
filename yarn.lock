@@ -9629,7 +9629,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     rimraf: ^3.0.2
-    sql-formatter: ^15.7.2
+    sql-formatter: ^15.8.0
     stylelint: ^14.3.0
     stylelint-config-prettier: ^9.0.4
     stylelint-config-recommended: ^6.0.0
@@ -12008,15 +12008,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sql-formatter@npm:^15.7.2":
-  version: 15.7.2
-  resolution: "sql-formatter@npm:15.7.2"
+"sql-formatter@npm:^15.8.0":
+  version: 15.8.0
+  resolution: "sql-formatter@npm:15.8.0"
   dependencies:
     argparse: ^2.0.1
     nearley: ^2.20.1
   bin:
     sql-formatter: bin/sql-formatter-cli.cjs
-  checksum: c4e8f7a9a48474bbd43e9c1706c202a6f9432f816807c3671ca42c701366e209eeb72fff47f9dab9291009c79ace3bd90fbdfc943fb028d5c1764a14532b755a
+  checksum: 6525fcb3e831ed376ba7fd28d84b2e08ca066b81c57a99afd1086ce1add85b4d41dff1e2554b50eb944fa2c4955bc74d7c37d24b3b936a04edba26618be42b58
   languageName: node
   linkType: hard
 
