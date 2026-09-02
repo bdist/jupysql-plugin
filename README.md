@@ -9,7 +9,6 @@
 > We'll keep backporting some features and making `0.3.x` releases for some time, but
 > we highly recommend upgrading to JupyterLab 4 for a better experience.
 
-
 ## Install
 
 ```bash
@@ -21,15 +20,16 @@ pip install jupysql-plugin
 ### Development install
 
 ```sh
-conda create --name jupysql-plugin python=3.11 --channel conda-forge --yes
+conda create --name jupysql-plugin python=3.13 --channel conda-forge --yes
 conda activate jupysql-plugin
-conda install nodejs=20 --channel conda-forge --yes
+conda install nodejs=24 --channel conda-forge --yes
 pip install -r requirements.txt
 pip install -r requirements.dev.txt
 
 jlpm install
 ```
-Note: `pkgmt format` can be used to format and lint Python files before committing code. 
+
+Note: `pkgmt format` can be used to format and lint Python files before committing code.
 To format JavaScript and TypeScript files, use `yarn run eslint`. To lint without formatting,
 use `yarn run eslint:check`
 
@@ -99,7 +99,6 @@ git clean -fdx
 Then, create the conda environment again, install dependencies (`jlpm install`), and
 build the extension manually (`jupyter labextension build --development True .`).
 Finally, verify if `pip install -e "."` works.
-
 
 ### Adding dependencies
 
